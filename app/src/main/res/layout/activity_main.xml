@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.earg.learnmath.learnmath.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="0dp"
+            android:layout_below="@id/text_view_nome_operacao"
+            android:text="Info"
+            android:textSize="24sp"
+            android:textColor="#000000" android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@id/text_view_info">
+
+            <Button
+                android:id="@+id/button_operacao_soma"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="+"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_operacao_subtracao"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="-"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_operacao_multiplicacao"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="*"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_operacao_divisao"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="/"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
